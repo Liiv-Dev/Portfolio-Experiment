@@ -121,11 +121,12 @@ h3 {
 .project-links {
  display: flex;
  justify-content: center;
+ overflow: scroll;
 }
 
 .project1 {
-   width: 150px;
-   height: 150px;
+   width: 100%;
+   height: auto;
    margin: 10px;
    border-radius: 10px;
 }
@@ -155,13 +156,15 @@ h3 {
    flex-direction: row;
    justify-content: space-between;
    margin-right: 80px;
-   width: 40%;
+   width: 50%;
    height: 50%;
+   overflow: scroll;
 }
 
 .logo1 {
-    width: 150px;
-    height: 100%;
+    width: 100%;
+    height: auto;
+    margin: 5px;
 }
 
 .contact {
@@ -172,10 +175,12 @@ h3 {
     height: 100%;
     width: 100%;
     color: white;
+    font-size: 20px;
 }
 
 .contact ul li {
     display: inline;
+    margin: 20px;
 }
 
 
