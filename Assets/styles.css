@@ -57,6 +57,7 @@ nav ul li{
     linear-gradient(
       var(--dark-color), var(--navy-color), var(--dark-color)
     );
+    box-shadow: 0px 15px 40px 10px #01C38D;
 }
 
 .about {
@@ -76,15 +77,15 @@ nav ul li{
 .selfie {
     margin: 0 auto;
     border: 1px solid var(--neongreen-color);
-    height: 50%;
-    width: 30%;
+    border-radius: 15px;
+    height: 300px;
+    width: 300px;
 }
 
 .about-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid var(--neongreen-color);
     height: 100%;
     width: 50%;
     margin-left: auto;
@@ -95,11 +96,13 @@ h3 {
     font-size: 40px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline var(--neongreen-color);
 }
 
 .fonts {
     font-family: 'Permanent Marker', cursive;
-    color: var(--neongreen-color)
+    color: var(--neongreen-color);
+    text-decoration: underline white;
 }
 
 .projects {
@@ -111,16 +114,20 @@ h3 {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 400px;
+    height: 500px;
     width: 100%;
 }
 
 .projects-links {
-
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 10%;
 }
 
 .project1 {
-
+    width: 30%;
+    height: 30%;
 }
 
 .skills {
