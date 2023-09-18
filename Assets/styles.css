@@ -1,0 +1,140 @@
+:root {
+    --dark-color: #191E29 ;
+    --navy-color: #132D46;
+    --neongreen-color: #01C38D;
+    --gray-color: #696E79; 
+}
+
+body {
+    background-color: black;
+    color: var(--iron-color);
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+  background-image:
+    linear-gradient(
+      var(--navy-color), var(--dark-color)
+    );
+}
+
+header nav{
+    float: right;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+nav ul li{
+    display: inline-block;
+    font-size: 30px;
+    text-decoration: underline var(--neongreen-color);
+    margin: 20px;
+    color: #FFFFFF;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    float: left;
+    margin: 10px;
+}
+
+.main-container {
+    background-color: var(--dark-color);
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    background-image:
+    linear-gradient(
+      var(--dark-color), var(--navy-color), var(--dark-color)
+    );
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
+.selfie {
+    margin: 50px;
+    border: 1px solid var(--neongreen-color);
+    height: 50%;
+    width: 30%;
+}
+
+.about-box {
+    border: 1px solid var(--neongreen-color);
+    height: 40%;
+    width: 50%;
+    margin-left: auto;
+}
+
+h3 {
+    color: white;
+    font-size: 40px;
+}
+
+.projects {
+    background-image:
+    linear-gradient(
+      black, var(--navy-color), black
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    height: 300px;
+    width: 100%;
+}
+
+.projects-links {
+
+}
+
+.project1 {
+
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+}
+
+.skills-box {
+    border: 1px solid var(--neongreen-color);
+    height: 40%;
+    width: 50%;
+    margin-right: auto;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.contact ul li {
+    display: inline;
+}
+
+
+
+
+
