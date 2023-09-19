@@ -103,6 +103,7 @@ h3 {
 .fonts {
     font-family: 'Permanent Marker', cursive;
     color: var(--neongreen-color);
+    text-decoration: underline white;
 }
 
 .projects {
