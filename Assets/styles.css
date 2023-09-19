@@ -179,7 +179,7 @@ h3 {
 }
 
 .contact ul li {
-    display: inline;
+    display: inline-block;
     margin: 20px;
 }
 
