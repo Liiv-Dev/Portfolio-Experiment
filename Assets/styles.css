@@ -13,6 +13,7 @@ body {
     width: 100%;
 }
 
+/*Centered content and linear Gradient for color blend*/
 header {
     display: flex;
     justify-content: space-around;
@@ -48,6 +49,7 @@ nav ul li{
     margin: 10px;
 }
 
+/* Added box-shadow and adjusted height*/
 .main-container {
     background-color: var(--dark-color);
     width: 85%;
@@ -100,12 +102,14 @@ h3 {
     text-decoration: underline var(--neongreen-color);
 }
 
+/*Changes color and font for span/H3 tag*/
 .fonts {
     font-family: 'Permanent Marker', cursive;
     color: var(--neongreen-color);
     text-decoration: underline white;
 }
 
+/*projects container*/
 .projects {
     background-image:
     linear-gradient(
@@ -118,12 +122,14 @@ h3 {
     width: 100%;
 }
 
+/* container holding projects with .project container*/
 .project-links {
  display: flex;
  justify-content: center;
  overflow: scroll;
 }
 
+/*Adjust project img*/
 .project1 {
    width: 100%;
    height: auto;
@@ -131,6 +137,7 @@ h3 {
    border-radius: 10px;
 }
 
+/*if applied, makes project img bigger*/
 .bigger {
     width: 200px;
     height: 200px;
@@ -145,6 +152,7 @@ h3 {
     width: 100%;
 }
 
+/*adjust h3 skills tag*/
 .skills-box {
     height: 40%;
     width: 50%;
@@ -161,6 +169,7 @@ h3 {
    overflow: scroll;
 }
 
+/*Adjust logo img*/
 .logo1 {
     width: 50%;
     height: auto;
@@ -183,6 +192,7 @@ h3 {
     margin: 20px;
 }
 
+/*Adjust material on page at 760px*/
 @media screen and (max-width: 760px) {
     header {
         display: flex;
