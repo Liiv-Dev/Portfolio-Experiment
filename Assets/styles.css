@@ -126,13 +126,14 @@ h3 {
 .project-links {
  display: flex;
  justify-content: center;
+ flex-wrap: wrap;
  overflow: scroll;
 }
 
 /*Adjust project img*/
 .project1 {
-   width: 100%;
-   height: auto;
+   width: 200px;
+   height: 150px;
    margin: 10px;
    border-radius: 10px;
 }
